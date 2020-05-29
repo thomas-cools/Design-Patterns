@@ -1,4 +1,4 @@
-package ch1;
+package patterns.strategy;
 
 public class ModelDuck extends Duck {
 

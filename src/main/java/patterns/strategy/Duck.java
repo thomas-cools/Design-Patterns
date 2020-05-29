@@ -1,7 +1,10 @@
-package ch1;
+package patterns.strategy;
 
 public abstract class Duck {
 
+    /**
+     * We are encapsulating the fly and quack behaviors, allowing us to change our implementations dynamically at run-time.
+     */
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
