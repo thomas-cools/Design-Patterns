@@ -1,6 +1,4 @@
-package patterns.observer;
-
-import java.util.Observable;
+package patterns.observer.weather;
 
 public class ForecastDisplay implements Observer, DisplayElement {
 

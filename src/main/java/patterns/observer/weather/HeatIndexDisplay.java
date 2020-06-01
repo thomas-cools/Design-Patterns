@@ -1,4 +1,4 @@
-package patterns.observer;
+package patterns.observer.weather;
 
 public class HeatIndexDisplay implements Observer, DisplayElement {
 
