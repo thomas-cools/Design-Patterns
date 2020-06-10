@@ -1,4 +1,4 @@
-package patterns.decorator;
+package patterns.decorator.beverages;
 
 public abstract class CondimentDecorator extends Beverage {
 

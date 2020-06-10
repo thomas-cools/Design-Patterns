@@ -1,16 +1,16 @@
-package patterns.decorator;
+package patterns.decorator.beverages;
 
-public class SteamedMilk extends CondimentDecorator {
+public class Whip extends CondimentDecorator {
 
     private final Beverage beverage;
 
-    public SteamedMilk(Beverage beverage) {
+    public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Steamed Milk";
+        return beverage.getDescription() + ", Whip";
     }
 
     @Override
